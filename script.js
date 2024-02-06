@@ -57,8 +57,8 @@ educations.forEach((education, index) => {
         const maxHeight = Math.max(educationHeight, certificationHeight)
 
         if(index === i){
-            education.style.height = `${maxHeight}px`
-            certification.style.height = `${maxHeight}px`
+            education.style.minHeight = `${maxHeight}px`
+            certification.style.minHeight = `${maxHeight}px`
         }
 
     })
