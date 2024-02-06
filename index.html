@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- importing "Poppins" font family from google font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!-- importing "Swipe JS" -->
+    <link rel="stylesheet" href="styles.css"> <!-- importing "stylesheet" -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!-- importing "iconify" -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header class=".header">
+        <!-- navbar section -->
+        <nav class="navbar">
+            <div class="name-image">
+                <img src="./assets/images/navbar-icon.png" alt="">
+            </div>
+
+            <div class="toggle-btn">
+                <div class="icon"></div> 
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+
+            <!-- main home section -->
+            <div class="home-row">
+                <div class="home-left">
+                    <h1 class="home-header">Matt Adil</h1>
+                    <p>Junior FrontEnd Developer</p>
+                    <a href="#contact">
+                        <button class="home-btn">Get Connected</button>
+                    </a>
+                </div>
+
+                <div class="right">
+                    <div class="person">
+                        <div class="person-container">
+                            <img class="person-circle" src="./assets/images/background-image.png" alt="">
+                            <img class="person-image" src="./assets/images/linkedin-image.png" alt="Matt's Portfolio Picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- strengths section -->
+        <section class="strength">
+            <div class="strength-row">
+                <div class="strength-column detail">
+                    <div class="strength-icon-container">
+                        <img src="./assets/images/strength/attention-to -detail.png" alt="">
+                    </div>
+                    <h4>Attention to Detail</h4>
+                    <p>I am a detail-oriented individual who excels in ensuring accuracy and precision in all tasks. Meticulous in my approach, I consistently deliver high-quality results in every project.</p>
+                </div>
+
+                <div class="strength-column detail">
+                    <div class="strength-icon-container">
+                        <img src="./assets/images/strength/creative-work.png" alt="">
+                    </div>
+                    <h4>Creative Work</h4>
+                    <p>I am a creative thinker with a passion for innovative solutions. My approach to work involves thinking outside the box and bringing fresh ideas to every project, fostering a dynamic and inspiring work environment.</p>
+                </div>
+
+                <div class="strength-column detail">
+                    <div class="strength-icon-container">
+                        <img src="./assets/images/strength/strong-dedication.png" alt="">
+                    </div>
+                    <h4>Strong Dedication</h4>
+                    <p>I am highly dedicated to achieving goals and consistently strive for excellence in all endeavors. My strong commitment ensures that I tackle challenges with resilience and deliver high-quality results. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-row">
+                <div class="about-left">
+                    <h3 class="about-header">A Passionate Developer Who Loves to Code</h3>
+                    <h4 class="about-sub-header">About Me</h4>
+                    <p>I'm Matt Adil, a self-motivated Front-End Developer specializing in React, JavaScript, and expanding into NodeJS. Since graduating in 2018, I've gained valuable experience in eCommerce account management. Recently, I redirected my career towards my dream job, fueled by a newfound passion for visual creativity. Through self-learning, I've built a strong foundation in HTML, CSS, JavaScript, and React.js. Driven by continuous learning, I embrace new technologies to deliver innovative solutions. Excited about the opportunity to contribute my skills and dedication to your organization.
+                    </p>
+                    <div class="cv-button-container">
+                        <a href="./assets/myCV.pdf" download="">
+                            <button class="cv-btn">Download CV</button>
+                        </a>
+                        <iconify-icon icon="material-symbols:download" class="download-icon"></iconify-icon>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-me-image-container">
+                        <img src="./assets/images/about-me.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section class="skills" id="skills">
+            <h3 class="skills-header">I Work Hard to Impove My Skills Regularly</h3>
+            <div class="skills-container">
+                <div class="skill-container">
+                    <p>HTML</p>
+                    <div class="bar"><span class="html"></span></div>
+                </div>
+
+                <div class="skill-container">
+                    <p>CSS</p>
+                    <div class="bar"><span class="css"></span></div>
+                </div>
+
+                <div class="skill-container">
+                    <p>JavaScript</p>
+                    <div class="bar"><span class="javascript"></span></div>
+                </div>
+
+                <div class="skill-container">
+                    <p>React.JS</p>
+                    <div class="bar"><span class="react"></span></div>
+                </div>
+
+                <div class="skill-container">
+                    <p>Node.JS</p>
+                    <div class="bar"><span class="node"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section class="project" id="project">
+            <h3 class="skills-header">I integrate new skills into my projects</h3>
+
+            <div class="project-wrapper">
+
+                <!-- single -->
+                <div class="project-container project-container-one">
+                    <div class="project-text project-text-one">
+                        <h4 class="single-project-title">Personal Protfolio Template</h4>
+                        <p class="single-project-description">This is a Personal Website Template, which is crafted with HTML, CSS, and JavaScript. The inclusion of lightbox and typed.js adds a dynamic touch to enhance user engagement. This template is designed for sale on Codester, a prominent platform for template offerings.</p>
+                        <div class="tools-container">
+                            <p class="tools-header">Tools Used</p>
+                            <ul class="tools">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Lightbox</li>
+                                <li>Typed.js</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="live-links-container">
+                            <p class="live-links-header">Live Links</p>
+                            <ul class="live-links">
+                                <li><a href="https://portfolio-template93.netlify.app/" target="_blank">Live Link</a></li>
+                                <li><a href="https://github.com/Mattbug3/portfolio-template" target="_blank">View Code</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="laptop-container laptop-container-one">
+                        <div class="laptop">
+                            <div class="laptop-screen laptop-screen-one"></div>
+                            <div class="laptop-bottom">
+                                <div class="laptop-under"></div>
+                            </div>
+                            <div class="laptop-shadow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single -->
+                <div class="project-container project-container-two">
+                    <div class="laptop-container laptop-container-two">
+                        <div class="laptop">
+                            <div class="laptop-screen laptop-screen-two"></div>
+                            <div class="laptop-bottom">
+                                <div class="laptop-under"></div>
+                            </div>
+                            <div class="laptop-shadow"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-text project-text-two">
+                        <h4 class="single-project-title">94/3 E-Market</h4>
+                        <p class="single-project-description">'94/3 E-Market' is a responsive full-stack web app developed as part of 'The Odin Project.' Leveraging React.js, React Router, and CSS, I designed a seamless and responsive user interface that adapts to all devices. User authentication is implemented using Firebase for a secure user experience, and Stripe is integrated for reliable payment processing.</p>
+                        <div class="tools-container">
+                            <p class="tools-header">Tools Used</p>
+                            <ul class="tools">
+                                <li>React.js</li>
+                                <li>CSS</li>
+                                <li>Firebase</li>
+                                <li>Stripe</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="live-links-container">
+                            <p class="live-links-header">Live Links</p>
+                            <ul class="live-links">
+                                <li><a href="https://mattbug3.github.io/943/" target="_blank">Live Link</a></li>
+                                <li><a href="https://github.com/Mattbug3/943" target="_blank">View Code</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single -->
+
+                <div class="project-container project-container-three">
+                    <div class="project-text project-text-three">
+                        <h4 class="single-project-title">ClimaView</h4>
+                        <p class="single-project-description">'ClimeView' is a fully responsive web application driven by HTML, CSS, and JavaScript. Utilizing the OpenWeather API, ClimeView seamlessly delivers dynamic and responsive weather information.</p>
+                        <div class="tools-container">
+                            <p class="tools-header">Tools Used</p>
+                            <ul class="tools">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>OpenWeather API</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="live-links-container">
+                            <p class="live-links-header">Live Links</p>
+                            <ul class="live-links">
+                                <li><a href="https://mattbug3.github.io/weather_app/" target="_blank"></a>Live Link</li>
+                                <li><a href="https://github.com/Mattbug3/weather_app" target="_blank">View Code</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="laptop-container laptop-container-three">
+                        <div class="laptop">
+                            <div class="laptop-screen laptop-screen-three"></div>
+                            <div class="laptop-bottom">
+                                <div class="laptop-under"></div>
+                            </div>
+                            <div class="laptop-shadow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single -->
+
+                <div class="project-container project-container-foure">
+                    <div class="laptop-container laptop-container-one">
+                        <div class="laptop">
+                            <div class="laptop-screen laptop-screen-four"></div>
+                            <div class="laptop-bottom">
+                                <div class="laptop-under"></div>
+                            </div>
+                            <div class="laptop-shadow"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-text project-text-four">
+                        <h4 class="single-project-title">WM Shop Hub</h4>
+                        <p class="single-project-description">'WM Shop Hub' is a responsive React.js project, featuring a user-friendly interface powered by React Router and CSS. Enhanced with SwipeJS for dynamic touch interactions, it includes essential pages like home page, shopping page, blog page, contact page, about us page, and login/register page. Users can easily browse and choose clothes by gender, size, and genres.</p>
+                        <div class="tools-container">
+                            <p class="tools-header">Tools Used</p>
+                            <ul class="tools">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Swiper.js</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="live-links-container">
+                            <p class="live-links-header">Live Links</p>
+                            <ul class="live-links">
+                                <li><a href="https://mattbug3.github.io/WM/" target="_blank"></a>Live Link</li>
+                                <li><a href="https://github.com/Mattbug3/WM" target="_blank"></a>View Code</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- background section -->
+        <section class="background" id="background">
+            <h3 class="background-header">I Studied, I Achieved</h3>
+            <div class="background-row">
+                <div class="background-left">
+                    <div class="circle"></div>
+                    <div class="circle-dot"></div>
+                    <h4 class="background-left-header">Education</h4>
+
+                    <!-- single -->
+                    <div class="education">
+                        <div class="icon-container">
+                            <iconify-icon icon="mdi:graduation-cap" class="education-icon"></iconify-icon>
+                        </div>
+                        <a href="https://www.linkedin.com/school/%E6%AD%A6%E6%B1%89%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6/" target="_blank">
+                            <div class="education-text-container">
+                                <h4 class="major-name">Bachelor of Business Administration - BBA</h4>
+                                <p class="education-orginization">Wuhan University of Science and Technology</p>
+                                <p class="education-description">
+                                    I pursued a Bachelor of Business Administration (BBA), acquiring a strong foundation in management, finance, and marketing.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                     <!-- single -->
+                    <div class="education">
+                        <div class="icon-container">
+                            <iconify-icon icon="mdi:graduation-cap" class="education-icon"></iconify-icon>
+                        </div>
+                        <a href="https://www.freecodecamp.org/" target="_blank">
+                            <div class="education-text-container">
+                                <h4 class="major-name">Responsive Design, Front-End Libraries, and JavaScript Algorithms</h4>
+                                <p class="education-orginization">freeCodeCamp</p>
+                                <p class="education-description">I acquired a solid foundation in front-end development, including HTML, CSS, and JavaScript, along with React.js libraries, through freeCodeCamp. It marked my initial step in the journey toward becoming a front-end developer.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                     <!-- single -->
+                    <div class="education">
+                        <div class="icon-container">
+                            <iconify-icon icon="mdi:graduation-cap" class="education-icon"></iconify-icon>
+                        </div>
+                        <a href="https://www.theodinproject.com/" target="_blank">
+                            <div class="education-text-container">
+                                <h4 class="major-name">Advanced Front-End Development with Real-Life Projects</h4>
+                                <p class="education-orginization">the Odin Project</p>
+                                <p class="education-description">
+                                    The Odin Project played a pivotal role in advancing my skills. Building real-life projects helped me mature and gain confidence in my front-end development capabilities.</p>     
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <!-- right -->
+                <div class="background-right">
+                    <div class="circle"></div>
+                    <div class="circle-dot"></div>
+                    <h4 class="background-right-header">Licenses & Certifications</h4>
+                     <!-- single -->
+                     <div class="certification">
+                        <div class="icon-container">
+                            <iconify-icon icon="clarity:license-solid-badged" class="certification-icon"></iconify-icon>
+                        </div>
+                        <a href="https://www.freecodecamp.org/certification/Matt-A/responsive-web-design" target="_blank">
+                            <div class="certification-text-container">
+                                <h4 class="certification-name">Responsive Web Design</h4>
+                                <p class="certification-orginization">freeCodeCamp</p>
+                                <p class="certification-description">I earned the Responsive Web Design Certification from freeCodeCamp, showcasing my proficiency in creating web designs that adapt seamlessly to various devices and screen sizes.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                     <!-- single -->
+                    <div class="certification">
+                        <div class="icon-container">
+                            <iconify-icon icon="clarity:license-solid-badged" class="certification-icon"></iconify-icon>
+                        </div>
+                        <a href="https://freecodecamp.org/certification/Matt-A/javascript-algorithms-and-data-structures" target="_blank">
+                            <div class="certification-text-container">
+                                <h4 class="certification-name">JavaScript Algorithms and Data Structures</h4>
+                                <p class="certification-orginization">freeCodeCamp</p>
+                                <p class="certification-description">I achieved the JavaScript Algorithms and Data Structures Certification from freeCodeCamp, demonstrating my expertise in developing efficient algorithms and robust data structures.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                     <!-- single -->
+                    <div class="certification">
+                        <div class="icon-container">
+                            <iconify-icon icon="clarity:license-solid-badged" class="certification-icon"></iconify-icon>
+                        </div>
+                        <a href="https://www.freecodecamp.org/certification/Matt-A/front-end-development-libraries" target="_blank">
+                            <div class="certification-text-container">
+                                <h4 class="certification-name">Front End Development Libraries</h4>
+                                <p class="certification-orginization">freeCodeCamp</p>
+                                <p class="certification-description">I earned the Front End Development Libraries Certification from freeCodeCamp, showcasing proficiency in utilizing React.JS to enhance front-end development.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog section -->
+        <section class="blog" id="blog">
+            <h4 class="blog-header">I Like to Share My Thoughts</h4>
+
+            <div class="grid-container">
+
+                <!-- single -->
+                <div class="grid-item">
+                    <img src="./assets/images/blog/blog-1.jpg" alt="">
+                    <div class="blog-text-container">
+                        <h4 class="blog-title">Demystifying JavaScript Hoisting</h4>
+                        <p class="blog-source">DEV Community</p>
+                        <p class="blog-description">JavaScript, a versatile and dynamic language, often surprises developers with its unique behaviors. One such behavior that frequently catches newcomers off guard is "hoisting." In this post, we'll demystify hoisting, providing a comprehensive understanding of how it works and why it's crucial for writing effective JavaScript code.</p>
+                        <div class="button-container">
+                            <a href="https://dev.to/mattbug3/demystifying-javascript-hoisting-what-you-need-to-know-56gi" target="_blank">
+                                <button class="read-more-btn">READ MORE</button>
+                                <iconify-icon icon="raphael:arrowright" style="color: #6782f5;" width="25"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single -->
+                <div class="grid-item">
+                    <img src="./assets/images/blog/blog-2.jpg" alt="">
+                    <div class="blog-text-container">
+                        <h4 class="blog-title">Tips and Tricks for Mobile-First Development</h4>
+                        <p class="blog-source">DEV Community</p>
+                        <p class="blog-description">Responsive design is not merely a design choice; it's a necessity in today's digital landscape where users access websites on various devices. Mastering responsive design, particularly with a mobile-first approach, is crucial for delivering an optimal user experience.</p>
+                        <div class="button-container">
+                            <a href="https://dev.to/mattbug3/mastering-responsive-design-tips-and-tricks-for-mobile-first-development-2pje" target="_blank">
+                                <button class="read-more-btn">READ MORE</button>
+                                <iconify-icon icon="raphael:arrowright" style="color: #6782f5;" width="25"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single -->
+                <div class="grid-item">
+                    <img src="./assets/images/blog/blog-3.jpg" alt="">
+                    <div class="blog-text-container">
+                        <h4 class="blog-title">Useful JavaScript Array Methods</h4>
+                        <p class="blog-source">DEV Community</p>
+                        <p class="blog-description">JavaScript arrays are powerful data structures that come with a variety of built-in methods, allowing developers to perform complex operations with ease. In this article, we'll explore some of the most useful array methods along with clear explanations and practical code examples.</p>
+                        <div class="button-container">
+                            <a href="https://dev.to/mattbug3/useful-javascript-array-methods-4j52" target="_blank">
+                                <button class="read-more-btn">READ MORE</button>
+                                <iconify-icon icon="raphael:arrowright" style="color: #6782f5;" width="25"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h4 class="contact-header">I Want to Hear from You</h4>
+
+        <div class="contact-grid-container">
+
+            <div class="contact-info-container">
+                <div class="main-contact-info">
+                    <div class="contact-image-container">
+                        <img src="./assets/images/contact/contact.png" alt="">
+                    </div>
+
+                    <div class="contact-info-text-container">
+                        <h4>Matt Adil</h4>
+                        <p class="position">Junior FrontEnd Developer</p>
+                        <p class="contact-description">
+                            I'm actively seeking job opportunities and welcome connections. Feel free to reach out to me through my account.
+                        </p>
+                        
+                        <div class="address-phone-email-container">
+                            <div class="address">
+                                <iconify-icon icon="mdi:location" style="color: #495ca8;" width="20"></iconify-icon>
+                                <p>Shanghai, China</p>
+                            </div>
+            
+                            <div class="email_1">
+                                <iconify-icon icon="ic:round-email" style="color: #495ca8;" width="20"></iconify-icon>
+                                <p>mattadil02@gmail.com</p>
+                            </div>
+            
+                            <div class="phone">
+                                <iconify-icon icon="solar:phone-bold" style="color: #495ca8;" width="20"></iconify-icon>
+                                <p>+86 199-2189-8173</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-icon-container">
+                        <p>Connect with Me Online</p>
+                        <div class="icons">
+                            <a href="https://linkedin.com/in/matt-adil" target="_blank">
+                                <iconify-icon icon="mdi:linkedin" width="20" class="contact-icon"></iconify-icon>
+                            </a>
+
+                            <a href="https://github.com/Mattbug3" target="_blank">
+                                <iconify-icon icon="mdi:github" width="20" class="contact-icon"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-input-container">
+                <form class="form" name="submit-to-google-sheet">
+                    <input type="text" class="name" name="Name" placeholder="Your Name">
+                    <input type="email" class="email" name="Email" placeholder="Your Email">
+                    <input type="text" class="subject" name="Subject" placeholder="Subject">
+                    <textarea name="text"  class="message" cols="30" rows="10" name="Messsage" placeholder="Your Message"></textarea>
+                    <span id="msg"></span>
+                    <button class="submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div>@2024 All Rights Reserved | Website Designed and Developed by Matt Adil</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./swipe.js"></script>
+    <script src="script.js" type="module"></script> 
+    <script src="./scrollAnimation.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxWlZe49axahhIengxJEOexR239EXK6eRIfhQhLFOR_XTZqGZyQO4KQrRB0beWRf_O48w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const submitMessage = document.getElementById('msg')
+        const submitBtn = document.getElementsByClassName('submit-btn')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{ 
+            submitMessage.innerHTML = "Message Sent Successfully"
+            const submitDisplayTime = setTimeout(() => {
+                submitMessage.innerHTML = ""
+            }, 3000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+
+        if(submitMessage.innerHTML !== ""){
+            submitBtn.marginTop = '2rem'
+        }else{
+            submitBtn.marginTop = "0"
+        }
+      </script>
+</body>
+</html>
+
+
